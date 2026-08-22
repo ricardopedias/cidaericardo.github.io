@@ -2,12 +2,11 @@
 .qrcode {
     display: flex;
     justify-content: center;
-    margin: 0 40px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .qrcode img {
-    width: 70%;
+    width: 150px;
     height: auto;
     border: 1px solid rgba(0, 0, 0, .2);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -15,12 +14,4 @@
     border-radius: 10px;
     background-color: #fff;
     padding: 10px;
-}
-
-.mensagem {
-  margin-top: -10px;
-}
-
-nav {
-  margin-top: 15px;
 }

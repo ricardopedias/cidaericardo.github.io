@@ -1,6 +1,5 @@
-
 .mensagem {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .confirmacao {
@@ -10,14 +9,18 @@
 
 .confirmacao a {
   display: inline-block;
-  padding: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  
+  text-decoration: none;
   background-color: rgba(170, 16, 31, 0.8);
   background-color: rgba(23, 83, 7, 0.8);
   border-radius: 50px;
-  color: white;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 50px;
+
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 

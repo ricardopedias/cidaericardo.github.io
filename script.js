@@ -17,3 +17,17 @@ function copiar(codigo)
     })
   ]).then(() => alert("QR Code copiado!"));
 }
+
+function abrirFullscreen() {
+  let elem = document.documentElement;
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  }
+}
+
+// Função para sair da tela cheia
+function fecharFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  }
+}
