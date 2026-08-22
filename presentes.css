@@ -1,0 +1,26 @@
+
+.qrcode {
+    display: flex;
+    justify-content: center;
+    margin: 0 40px;
+    padding: 10px;
+}
+
+.qrcode img {
+    width: 70%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.mensagem {
+  margin-top: -10px;
+}
+
+nav {
+  margin-top: 15px;
+}

@@ -1,0 +1,52 @@
+
+/* Envelope */
+
+.envelope {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.envelope img {
+  width: 100%;
+  height: auto;
+  
+}
+
+/* Data */
+
+.data {
+  font-family: "Ledger", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.data table {
+  border-collapse: collapse;
+  color: rgba(170, 16, 31, 0.8);
+}
+
+.data tr:first-child td {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-size: .9rem;
+}
+
+.data tr:last-child td {
+  padding-top: 10px;
+}
+
+.data tr:nth-child(2) td {
+  padding: 10px;
+}
+
+.data tr:nth-child(2) td:nth-child(2) {
+  border-left: 1px solid rgba(0, 0, 0, .1);
+  border-right: 1px solid rgba(0, 0, 0, .1);
+  padding: 0 17px;
+  font-size: 3rem;
+  line-height: 2rem;
+}

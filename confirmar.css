@@ -1,0 +1,23 @@
+
+.mensagem {
+  margin-top: 50px;
+}
+
+.confirmacao {
+    display: flex;
+    align-items: center;
+}
+
+.confirmacao a {
+  display: inline-block;
+  padding: 20px;
+  background-color: rgba(170, 16, 31, 0.8);
+  background-color: rgba(23, 83, 7, 0.8);
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+}
+
+
