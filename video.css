@@ -1,0 +1,39 @@
+
+
+body {
+  background-color: rgba(234, 227, 213, .3);
+  background-image: url(detalhe-superior.png), url(textura.png);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, repeat;
+  background-size: 300px, auto;
+}
+
+section {
+  width: 80%;
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+section video{
+  display: block;      /* Removes the default inline baseline whitespace gap below the video */
+  margin: 0;           /* Clears any default browser margins */
+  padding: 0;          /* Forces padding to zero */
+  width: 100%;         /* Fits the width of its parent container */
+  height: auto;        /* Maintains the video's original aspect ratio */
+  object-fit: cover;   /* Optional: Stretches/crops the video content to fill its box without letterboxing */
+}
+
+.envelope {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.envelope img {
+  max-width: 250px;
+  height: auto;
+}
+
