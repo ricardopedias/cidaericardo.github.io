@@ -7,8 +7,6 @@ window.addEventListener("load", function() {
             copiar(qrcodeImage.dataset.code);
         });
     }
-
-    toggleFullScreen(document.body);
 });
 
 function copiar(codigo)
@@ -20,7 +18,12 @@ function copiar(codigo)
   ]).then(() => alert("QR Code copiado!"));
 }
 
-function toggleFullScreen(elem) {
+function abrirEmTelaCheia()
+{
+  let elem = document.body;
+
+  console.log('fullscreen');
+  
   // ## The below if statement seems to work better ## if ((document.fullScreenElement && document.fullScreenElement !== null) || (document.msfullscreenElement && document.msfullscreenElement !== null) || (!document.mozFullScreen && !document.webkitIsFullScreen)) {
   if ((document.fullScreenElement !== undefined && document.fullScreenElement === null) || (document.msFullscreenElement !== undefined && document.msFullscreenElement === null) || (document.mozFullScreen !== undefined && !document.mozFullScreen) || (document.webkitIsFullScreen !== undefined && !document.webkitIsFullScreen)) {
       if (elem.requestFullScreen) {
@@ -42,19 +45,5 @@ function toggleFullScreen(elem) {
       } else if (document.msExitFullscreen) {
           document.msExitFullscreen();
       }
-  }
-}
-
-function abrirFullscreen() {
-  let elem = document.documentElement;
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  }
-}
-
-// Função para sair da tela cheia
-function fecharFullscreen() {
-  if (document.exitFullscreen) {
-    document.exitFullscreen();
   }
 }
