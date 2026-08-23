@@ -1,12 +1,19 @@
 
-.mapa {
+.igreja {
   display: block;
   overflow: hidden;
   border-radius: 10px;
+  height: 150px;;
 }
 
-.mapa img {
+.igreja img {
   display: block;
-  max-width: 250px;
+  max-width: 230px;
   height: auto;
 }
+
+.botao {
+  margin-top: -20px;
+  margin-bottom: -15px;
+}
+
