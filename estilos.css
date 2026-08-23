@@ -12,6 +12,18 @@
   font-style: normal;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*:fullscreen
+*:-ms-fullscreen,
+*:-webkit-full-screen,
+*:-moz-full-screen {
+   overflow: auto !important;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -29,11 +41,6 @@ body {
   min-height: 100vh;
   padding:0;
   margin:0;
-}
-
-* {
-  padding: 0;
-  margin: 0;
 }
 
 table {
